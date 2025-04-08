@@ -1,0 +1,130 @@
+.loginContainer{
+    background-color: #192B37;
+    box-shadow: 0px 0px 10px 0px black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.login{
+    font-size: 25px;
+    color: #FF5640;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+}
+
+.message{
+    font-size: 12px;
+    margin-bottom: 15px !important;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordLabel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    font-size: 12px;
+}
+
+.rememberme{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkboxlabel{
+    font-size: 12px;
+    
+}
+
+.loginBtn{
+    border: none;
+    background-color: #FF5640;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 7px #FF5640;
+    padding: 8px 0px;
+}
+
+.loadingBtn{
+    border: none;
+    background-color: #FF5640;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 7px #FF5640;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingProgress{
+    height: 25px !important;
+    width: 25px !important;
+    color: white !important;
+}
+
+.noAccount{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 16px !important;
+}
+
+.register{
+    color: #68B5E8;
+    font-size: 15px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.register:hover{
+    text-decoration: underline;
+}
+
+.loginInput{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 40px;
+    height: 40px !important;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.717);
+    background-color: #354652;
+    width: 100%;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.forgotPassword{
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.forgotPassword:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.inputWithIcon{
+    position: relative;
+}
+
+.inputIcon{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 20px !important;
+}

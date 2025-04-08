@@ -1,0 +1,25 @@
+.sidebar{
+    height: 90vh;
+    width: 230px;
+    background-color: #30404B;
+}
+
+.item{
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    transition: padding-left 0.5s ease;
+}
+
+.item:hover{
+    background-color: #47555F;
+    padding-left: 20px;
+}
+
+.icon{
+    color: #FF5640;
+}

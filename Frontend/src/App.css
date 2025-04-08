@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "DavaSans";
+    src: url("/fonts/DavaSans-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DavaSans', sans-serif; 
+}
+
+
+.swal-div-content{
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sweet-alert-msg{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-popup{
+  background-color:#47555F;
+  box-shadow: 0px 0px 10px 0px black;
+  color: white;
+  width: 540px;
+}
+
+
+.custom-confirm-button{
+  background-color: #FF5640 !important;    
+}
+

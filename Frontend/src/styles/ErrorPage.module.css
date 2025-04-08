@@ -1,0 +1,40 @@
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #192b37;
+  color: #343a40;
+}
+
+.errorPage h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.errorPage h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.errorPage p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #6c757d;
+}
+
+.errorPage button {
+  margin-top: 1rem;
+}
+
+.homeBtn {
+  color: #6c757d;
+  background: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+}

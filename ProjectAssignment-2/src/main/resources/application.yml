@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:sqlserver://localhost:1433/ProjectAssignemnt2?encrypt=true?trustServerCertificate=true
+    username: sa
+    password: Galaxy@123
+  sql:
+    init:
+      mode: never
+  webflux:
+    multipart:
+      enabled: true

@@ -1,0 +1,13 @@
+.message{
+    margin: 0px;
+    color: red;
+    margin-top: 5px !important;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+.icon{
+    margin-right: 2px;
+}

@@ -1,0 +1,28 @@
+.container{
+    background-color: #192B37;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.greeting{
+    font-size: 30px;
+    margin: 0;
+}
+
+.welcomeMsg{
+    font-size: 30px;
+    margin: 0;
+}
+
+.updateProfile{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #FF5640;
+    margin-top: 10px;
+}

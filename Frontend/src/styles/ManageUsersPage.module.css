@@ -1,0 +1,38 @@
+.container{
+   margin: 10px 100px;
+}
+
+.searchContianer{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.search{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    height: 40px !important;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.717);
+    background-color: #354652;
+    width: 300px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.search:focus{
+    outline: none;
+}
+
+
+.usersContainer{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.noResults{
+    margin: auto;
+}

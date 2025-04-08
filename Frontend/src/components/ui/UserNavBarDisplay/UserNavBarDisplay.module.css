@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    color: white;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.container p{
+    margin: 0;
+    font-size: 13px;
+}
+
+.avatar{
+    margin-right: 7px;
+    background-color: #FF5640 !important;
+}
+
+.options{
+    position: absolute;
+    background-color: #192B37;
+    box-shadow: 0px 0px 10px black;
+    width: 180px;
+    top: 40px;
+    right: 2px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.option{
+    border: none;
+    width: 100%;
+    text-align: left;
+    background:transparent;
+    color: rgb(222, 222, 222) !important;
+    padding: 15px;
+    font-size: 13px;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    transition: padding-left 0.5s ease;
+}
+
+.option:hover{
+    background-color: #47555F;
+    padding-left: 25px;
+}

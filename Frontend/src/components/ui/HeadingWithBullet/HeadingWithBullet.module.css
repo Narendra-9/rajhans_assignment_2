@@ -1,0 +1,11 @@
+.heading{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.bullet{
+    width: 10px;
+    height: 40px;
+    background-color: #FF5640;
+}
